@@ -28,8 +28,7 @@ def webhook():
     return r
 
 def makeWebhookResult(req):
-    if req.get("result").get("action") != "final_response":
-        return {}
+    
     result = req.get("result")
     parameters = result.get("parameters")
     zone = parameters.get("Verizon_issue_account_lock")
