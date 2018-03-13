@@ -33,7 +33,7 @@ def makeWebhookResult(req):
     parameters = result.get("parameters")
     zone = parameters.get("Verizon_issue_account_lock")
 
-    cost = {'Lock':account-lockATgsk.com, 'Locked':account-lockATgsk.com}
+    cost = {'Lock':lockATgsk.com, 'Locked':lockATgsk.com}
 
     speech = "The email has been sent to " + str(cost[zone]) + " for your " + zone + " issue."
 
