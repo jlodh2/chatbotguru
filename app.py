@@ -35,7 +35,7 @@ def makeWebhookResult(req):
 
     
 
-    speech = "The email has been sent to Chole nd Takara for your " + zone + " issue."
+    speech = "The email has been sent to Chole nd Takara for your issue."
 
     print("Response:")
     print(speech)
